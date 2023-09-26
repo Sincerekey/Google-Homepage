@@ -1,0 +1,161 @@
+/* Puts my nav in a grid so I can seperate the items */
+.navL{
+  color: white;
+  display: grid;
+  grid-template-columns: 12% 12% 22% 12% 12% 12% 20%;
+  padding:10px;
+  font-family: 'Product Sans', sans-serif;
+}
+ul.navL li:nth-child(3){
+  grid-column: 4 / 5;
+}
+#ab{
+  word-spacing: 40px;
+}
+#gm{
+  word-spacing: 40px;
+  display: flex;
+  align-items: center;
+}
+#mA{
+  width: 30px;
+  padding-left: 40px;
+}
+#pP{
+  width: 40px;
+  padding-left: 40px;
+}
+/* changes the backgroud color of the enire page */
+
+html{
+  background-color: #202124;
+}
+
+ul{
+    list-style: none;
+    
+}
+/*Styles the Google in the middle of page */
+#google{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: white;
+  font-family: 'Product Sans', sans-serif;
+
+}
+#s-png{
+  width: 30px;
+
+}
+/* Puts the searchbar in the middle */
+.search{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+  
+  /* Buttons under the search */
+.u-s{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+  font-family: 'Product Sans' 400, sans-serif;
+  
+  
+}
+/* Button search style */
+#s-b{
+  margin: 10px;
+  background-color: #202124;
+  border: none;
+  border-radius: 10px;
+}
+#img-b{
+  position: absolute;
+  border: none;
+  right: 600px;
+  z-index: 2;
+  top: 12px;
+  transform: translateX(2px);
+  width: 30px;
+  height: 30px;
+  background-color: #202124;
+}
+img{
+  width: 30px;
+  height: 30px;
+}
+input{
+  color: white;
+  margin: 0px;
+ padding: 0px;
+}
+#gooSearch{
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  border: none;
+  background-color: #303134;
+  margin-right: 20px;
+  font-family: 'Product Sans', sans-serif;
+  width: 125px;
+  height: 40px;
+  font-size: 14px;
+}
+#feelLucky{
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #303134;
+  color: white;
+  margin-left: 20px;
+  font-family: 'Product Sans', sans-serif;
+  width: 125px;
+  height: 40px;
+  font-size: 13px;
+}
+
+
+#site-search{
+  width: 600px;
+  padding: 10px;
+  appearance:none;
+  border-radius: 30px;
+  background-color: #202124;
+  border-color: white;
+}
+#site-search-img{
+  width: 600px;
+  padding: 10px;
+  appearance:none;
+  border-radius: 30px;
+  background-color: #202124;
+  border-color: white;
+}
+#s-b-i{
+  margin: 10px;
+  background-color: #202124;
+  border: none;
+  border-radius: 10px;
+}
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+.footer {
+  /* this will active flexbox and put the list items in one row */
+  padding-top: 255px;
+  display: grid;
+  grid-template-columns: 12% 12% 12% 20% 12% 12% 12% 12%;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+  font-family: 'Product Sans', sans-serif;
+}
+ul.footer li:nth-child(4){
+  grid-column: 6 / 7;
+}
